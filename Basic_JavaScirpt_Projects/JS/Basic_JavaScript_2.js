@@ -9,3 +9,4 @@ function function2 () {
     sentence += " of JavaScript lol";
     document.getElementById("Concatenate").innerHTML = sentence;
 }
+
