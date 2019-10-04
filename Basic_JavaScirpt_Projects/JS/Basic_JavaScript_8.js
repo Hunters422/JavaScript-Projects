@@ -49,3 +49,16 @@ function valueof_method() {
     var num = 64546;
     document.write("Output : " + num.valueOf());
 }
+function countdown() {
+    var seconds = document.getElementById("seconds").value;
+
+    function tick() {
+        seconds = seconds - 1;
+        timer.innerHTML = seconds;
+        setTimeout(tick, 1000);
+    if (seconds == -1) {
+        alert("Time's up!");
+    }
+        }
+    tick();
+}
