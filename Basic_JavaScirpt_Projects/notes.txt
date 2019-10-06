@@ -1,0 +1,15 @@
+A token is a single component in a programming language. The five categories of tokens are:
+
+1. Constants,
+
+2. Identifiers (names that uniquely identify a program element in the code – such as variables),
+
+3. Operators (such as +, * or -),
+
+4. Separators (also called “delimiters – a sequence of one or more characters that specifies the boundaries of sections of code),
+
+5. Reserved words (words that have set meanings and uses, and cannot be redefined by a developer).
+
+Sometimes in Dev Tools, if there’s an error in your code, it may state: Unexpected token – which means there’s a component in your code the browser can’t execute.
+
+JavaScript keywords are tokens that have special meanings. As discussed previously, keywords are reserved words in JavaScript which means you cannot use them to name variables or functions.
