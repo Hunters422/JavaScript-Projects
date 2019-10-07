@@ -45,13 +45,13 @@ document.write(x);
 }
 document.write("<br>" + x);
 
-/*i cant get this return function to work. ask sabina for help.
+
 var p = hard(4);
 function hard(a) {
     return a;
 }
 document.getElementById("demo").innerHTML = p;
-/*same issue cannot resolve. it will not display
+
 let car = {
     make: "Dodge ",
     model: "Viper ",
@@ -62,8 +62,7 @@ let car = {
     }
 };
 document.getElementById("Car_Object").innerHTML = car.description();
-*/
-/*
+
 var text = "";
 var i;
 for (i = 0; i < 10; i++) {
@@ -71,10 +70,9 @@ for (i = 0; i < 10; i++) {
     text += "The number is " + i + "<br>";
 }
 document.getElementById("example1").innerHTML = text;
-*/
-/*
+
 for (i = 0; i < 10; i++) {
     if (i === 3) { continue; }
     text += "The number is " + i + "<br>";
   }
-  */
+  
