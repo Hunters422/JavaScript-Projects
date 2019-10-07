@@ -30,8 +30,19 @@ function Hello_World_Function() {
     var A = document.getElementsByClassName("Click");
     A[0].innerHTML = "The text has changed!";
 }
-var c = document.getElementById("myCanvas");
-var ctx = c.getContext("2d");
+/*i cannot get this code to work properly. page 214 i believe then page 216*/
+var canvas = document.getElementById('myCanvas');
+var ctx = canvas.getContext('2d');
 ctx.moveTo(0, 0);
 ctx.lineT(200, 100);
 ctx.stroke();
+/*sepeate assignments*/
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+
+var grd = ctxcreateLinearGradient(0,0,170,0);
+grd.addColorStop(0, "black");
+grd.addColorStop(1, "white");
+
+ctx.fillStyle = grd;
+ctx.fillRect(20, 20, 150, 100);
