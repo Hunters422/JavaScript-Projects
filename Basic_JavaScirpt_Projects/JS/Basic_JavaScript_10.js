@@ -45,13 +45,13 @@ document.write(x);
 }
 document.write("<br>" + x);
 
-
-var p = hard(4);
-function hard(a) {
-    return a;
+/*from here down, the code does not work 
+function myFunction1() {
+    return Math.PI;
 }
-document.getElementById("demo").innerHTML = p;
 
+document.getElementById("demo1").innerHTML = myFunction1();
+*/
 let car = {
     make: "Dodge ",
     model: "Viper ",
@@ -62,6 +62,7 @@ let car = {
     }
 };
 document.getElementById("Car_Object").innerHTML = car.description();
+
 
 var text = "";
 var i;
